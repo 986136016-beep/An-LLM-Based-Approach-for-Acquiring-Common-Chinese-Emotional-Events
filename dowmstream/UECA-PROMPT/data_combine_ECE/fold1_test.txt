@@ -1,0 +1,745 @@
+1 3
+(2, 1), (2, 3)
+1,null,null,骚乱 事件 重创 了 温哥华 全球 最 适宜 居住 城市 的 美誉
+2,sadness,痛心,温哥华 人为 之 痛心疾首
+3,null,null,深感 蒙羞
+2 6
+(4, 3)
+1,null,null,碍于情面
+2,null,null,小王 为 犯罪分子 望风
+3,null,null,结果 被 民警 抓获 并 判处 有期徒刑 3 年 缓期 3 年
+4,sadness,痛心,小王 的 父母 痛心疾首
+5,null,null,在 益华 里 一 小区 买 了 一处 顶楼 的 房子 让 小王 居住
+6,null,null,平时 根本 不让 他 下楼
+3 11
+(6, 6)
+1,null,null,爸 妈
+2,null,null,桂香 不会 离开 这个 家
+3,null,null,我会 照顾 你们 一辈子
+4,null,null,拉着 公婆 的 手
+5,null,null,王桂香 语气 坚定 地 说出 了 自己 的 决定
+6,sadness,悲伤,婆婆 难挨 失子 之痛 悲伤 过度 病倒 在 床
+7,null,null,高血压 导致 整个 右 半身 不能 动
+8,null,null,见 了 人 说话 也 说不清楚
+9,null,null,在 亲戚朋友 的 帮助 下
+10,null,null,刚 坐 完月子
+11,null,null,王桂香 便 开始 操持家务
+4 11
+(8, 7)
+1,null,null,然而
+2,null,null,随着 家业 越来越 大
+3,null,null,桑圣钦 却 为 缺乏 管理 生产 技术 人才 而 发愁
+4,null,null,自己 当时 没 条件 上 大学
+5,null,null,大学 梦想 也 始终 是 他 的 一个 难舍 情结
+6,null,null,在 一次 校园 参观 活动 中
+7,null,null,桑圣钦 了解 到 当地 县一中 每年 都 有 几十名 优秀 贫困生 面临 辍学
+8,sadness,痛心,他 当时 就 非常 痛心
+9,null,null,表态 自己 愿出 10 万元 作为 奖学金
+10,null,null,没 两天
+11,null,null,他 就 安排 财务人员 将 10 万元 奖学金 款汇 到 郓城 一中 账户 上
+5 7
+(4, 1)
+1,null,null,周汝昌 逝世 的 消息 传开 后
+2,null,null,好友 后 学 纷纷表示 悼念
+3,null,null,周伦玲 的 手机 一整天 都 处于 通话 状态
+4,sadness,悲痛,农民日报 记者 作家 王 景山 悲痛 不已 周老 身体 一直 不好
+5,null,null,就 靠 一股 子 精气神 支撑 着
+6,null,null,黑白 颠倒
+7,null,null,只 为 红楼
+6 7
+(6, 5)
+1,null,null,但 她 为了 丈夫 所 追求 的 信念
+2,null,null,默默 忍受着 痛苦
+3,null,null,就 像 布什总统 的 评价 她 勇气 非凡
+4,null,null,是 一位 伟大 的 民权 领袖
+5,null,null,马丁 · 路德 · 金于 1968 年 4 月 4 日 被暗杀
+6,sadness,悲痛,科雷塔 强忍 着 悲痛 对 记者 说 我 更加 坚信
+7,null,null,我 丈夫 的 梦 将 变成 现实
+7 5
+(5, 1)
+1,null,null,哲学 界 的 前辈 周礼 全 先生 6 月 8 日 在 美国 去世 了
+2,null,null,87 岁
+3,null,null,可以 说 是 得 高寿 而终
+4,null,null,但 初闻此 消息
+5,sadness,悲伤,还是 令人 感到 悲伤
+8 9
+(6, 4), (6, 5)
+1,null,null,可是
+2,null,null,在 一个 暴风雨 之夜
+3,null,null,火炬 被 吹灭
+4,null,null,利安得 迷失方向
+5,null,null,溺水 而 死
+6,sadness,悲痛,希洛 悲痛 万分
+7,null,null,纵身 跳进 海峡
+8,null,null,从此
+9,null,null,这个 海峡 就 以 殉情 而亡 的 希洛 的 名字 流传 为 赫勒斯 滂
+9 5
+(5, 4)
+1,null,null,在 他 手下 干活
+2,null,null,心情舒畅
+3,null,null,浑身是劲
+4,null,null,失去 这样 一位 好 领导
+5,sadness,悲痛,我们 无比 悲痛
+10 8
+(8, 3), (8, 5), (8, 7)
+1,null,null,记者 在 山西省 浑源县 采访 发现
+2,null,null,由于 缺乏 监管 长期 无序 开采 矿石
+3,null,null,恒山 风景区 四周 群山 遍体鳞伤
+4,null,null,多个 山头 被 挖出 大大的 缺口
+5,null,null,植被 遭到 严重破坏
+6,null,null,放眼望去
+7,null,null,青山 翠岭 变成 了 土石 满坡 的 不毛之地
+8,sadness,痛心,令人 痛心
+11 9
+(5, 3)
+1,null,null,在 这场 灾难 中
+2,null,null,北川 中学
+3,null,null,还有 汶川 的 几所 中小学 和 幼儿园 里 的 许多 学生 遇难
+4,null,null,作为 一名 中学教师
+5,sadness,悲痛,我 万分 悲痛
+6,null,null,我 唯一 能 做 的 就是 号召 我 的 朋友
+7,null,null,包括 我 的 学生 在内 捐款
+8,null,null,哪怕 是 数量 微薄
+9,null,null,但是 这是 我们 真诚 的 心意
+12 16
+(6, 4)
+1,null,null,她 赶紧 回家
+2,null,null,推门 一看
+3,null,null,惊得 两腿 发软
+4,null,null,只见 宝贝女儿 自缢 在 房梁 上
+5,null,null,妈妈 捶胸顿足
+6,sadness,悲痛,悲痛欲绝
+7,null,null,只怪 自己 太 粗心
+8,null,null,几年 以后
+9,null,null,她 逐渐 平静
+10,null,null,说出 一番 很 深刻 的话 那时
+11,null,null,病中 的 女儿 很 痛苦
+12,null,null,太 需要 帮助
+13,null,null,太 需要 温暖 和 安慰
+14,null,null,太 需要 有人 鼓励 她 去 战胜 病魔
+15,null,null,而 我 非但 没有 担当 这样 的 角色
+16,null,null,反之 在 女儿 最 需要 我 的 时候 缺失 了
+13 9
+(3, 3)
+1,null,null,巧 的 是
+2,null,null,这 只 鹩哥 的 主人 王先生 也 在 官园 花鸟 市场 开 了 一家 店
+3,sadness,伤心,王先生 发现自己 花 了 3600 元 买来 的 鹩哥 被盗 十分 伤心
+4,null,null,谁知 第二天 却 在 郭先生 的 店 中 发现 了 这 只 鹩哥
+5,null,null,郭先生 说
+6,null,null,如果 王先生 能 让 鸟 说话
+7,null,null,就 证明 这鸟 是 王先生 的
+8,null,null,没想到
+9,null,null,鹩哥 见到 自己 的 主人 真的 开始 张口 学舌 了
+14 4
+(4, 3)
+1,null,null,我们 国家 失去 了 一位 高瞻远瞩 的 战略 科学家
+2,null,null,光学 界 失去 了 一盏 指路 的 明灯
+3,null,null,得知 王老 逝世 的 消息
+4,sadness,悲痛,中科院 西安 光机所 原 所长 侯洵 院士 十分 悲痛
+15 9
+(9, 5)
+1,null,null,2 月 2 日
+2,null,null,农历 正月初三 下午
+3,null,null,甘肃省 火灾 调查 专业 骨干 省 公安消防 总队 防火 部火 调处 高级 工程师 吴建平
+4,null,null,在 春节 值班 期间 因 劳累过度
+5,null,null,心源性 衰竭 循环 衰竭 逝世
+6,null,null,年仅 51 岁
+7,null,null,消息 传开
+8,null,null,战友 们 无不 扼腕痛惜
+9,sadness,悲痛,悲痛 不已
+16 5
+(3, 2)
+1,null,null,如今
+2,null,null,公公 阿腾 毕力 格及 公公 的 生母 养母 相继 逝世
+3,sadness,悲伤,乌兰 其其格 无法 掩饰 内心 的 悲伤
+4,null,null,她 将 所有 的 孝心 全部 倾注 到 健在 的 两位 老人 身上
+5,null,null,让 她们 在 有生之年 多享 点福
+17 11
+(6, 5)
+1,null,null,贫苦 的 草原 汉子 嘎达 忠诚 勇敢 善良 勤劳
+2,null,null,正是 这些 品质 使达王 认为 他 可以 为 自己 所用
+3,null,null,提拔 他 当 了 梅林
+4,null,null,但嘎达 更 同情 的 是 牧民
+5,null,null,呼 德尔 被 招抚 后 受到 达王 暗算 不幸遇难
+6,sadness,悲伤,这一 刺激 使 他 万分 悲伤
+7,null,null,他 拒绝 与 色旺 同流合污 而 被 褫夺 梅林 职务
+8,null,null,在 追捕 图布丹 的 战斗 中 又 被 达 王 启用
+9,null,null,完成 任务 后 他 解甲归田
+10,null,null,看到 广大 牧民 因 王爷 而 放荒 而 流离失所
+11,null,null,他 参加 了 义军
+18 10
+(5, 2), (5, 4)
+1,null,null,据 新华社 杭州 2 月 14 日 专电 12 日
+2,null,null,宁波 45 岁 的 郑 女士 因赶 公交车 不慎 摔倒 无法 自己 爬 起
+3,null,null,她 向 路 人 呼救 并 说 是 自己 摔倒 的
+4,null,null,但 在 20 多分钟 里 仍 没有 路人 扶
+5,sadness,伤心,这个 过程 让 她 很 伤心
+6,null,null,郑 女士 是 宁波 本地人
+7,null,null,12 日 出门 找 工作
+8,null,null,两年 前 她 出过 一场 车祸
+9,null,null,造成 右小腿 骨折
+10,null,null,前些时 间 刚 从 医院 拆 了 不锈钢 钢板
+19 8
+(5, 5)
+1,null,null,巴赫 曼 今年 41 岁
+2,null,null,自从 1993 年 就是 布拉 佐斯县 副 警长
+3,null,null,麦考 拉姆 表示
+4,null,null,巴赫 曼是 这个 社区 的 支柱 人物
+5,sadness,伤心,每个 人 都 为 失去 他 感到 极度 伤心
+6,null,null,此外
+7,null,null,一名 65 岁 的 男性 平民 也 在 枪击 中 丧生
+8,null,null,据称 他 是 旁观者
+20 10
+(5, 6)
+1,null,null,沉默 了 一会儿
+2,null,null,她 才 结结巴巴 地道 我 是 探访 医院 的 特殊 教师
+3,null,null,你 的 老师 让 我 来 帮助 你 学习 名词 和 动词
+4,null,null,从 医院 回来 后
+5,sadness,难过,她 感到 很 难过
+6,null,null,因为 她 认为 今天 的 辅导 是 她 在 当 家庭 访问 教师 以来 相当 失败 的 一次
+7,null,null,第二天 早上
+8,null,null,当 她 再次 来到 医院 时
+9,null,null,一位 烧烫伤 治疗 中心 的 护士 问 她 昨天
+10,null,null,您 对 那 男孩 说 了 什么
+21 3
+(1, 1)
+1,sadness,悲伤,数不尽 的 党员干部 忍受着 失去 亲人 的 悲伤
+2,null,null,来不及 擦 去 泪水
+3,null,null,就 投入 到 抗震救灾 工作
+22 7
+(5, 5)
+1,null,null,在 钱学森 曾经 工作 过 的 笕 桥 机场
+2,null,null,工作人员 张道杰 说 我 和 钱 教授 虽然 未曾 见面
+3,null,null,但是 在 30 年代
+4,null,null,他 曾 在 笕 桥 机场 工作 过
+5,sadness,悲痛,他 的 逝世 让 我 感到 非常 悲痛
+6,null,null,他 为 祖国 作出 了 巨大 的 贡献
+7,null,null,我要 向 他 学习
+23 5
+(1, 1), (1, 4), (1, 5)
+1,sadness,伤心,让 被罢免 的 代表 们 更 伤心 的 是 罢工 结果
+2,null,null,工人 辛辛苦苦 罢工
+3,null,null,还要 冒 着 被 警察 抓 的 风险
+4,null,null,但 维权 的 真正 目的 还是 没有 达到
+5,null,null,工人 长远利益 被损害
+24 9
+(8, 7)
+1,null,null,目前 估计 全市 有 10 万名 患有 精神分裂症 的 患者
+2,null,null,每年 新增 名
+3,null,null,而 患病 后 的 每年 累计数
+4,null,null,则 又 以 滚雪球 般 发展
+5,null,null,这是 一个 非常 巨大 的 数字
+6,null,null,对 社会 家庭 的 冲击力 非常 大
+7,null,null,当 家庭成员 患 了 精神分裂症 后
+8,sadness,悲伤,全家 就 会 处于 悲伤 的 氛围 中
+9,null,null,长年累月 担心 不已
+25 7
+(4, 3)
+1,null,null,而 在 西南 医院
+2,null,null,牵挂 靖易 的 早已 不 只是 主治医生 一人
+3,null,null,免疫 研究所 副所长 李晋涛 的 爱人 患 胃癌 去世 了
+4,sadness,伤心,李晋涛 伤心 得 茶饭不思
+5,null,null,却 仍然 记着 给靖易 送来 了 七八千元 的 药物 外科 专家 赵永亮 教授 知道 靖易 的 情况 后
+6,null,null,一次 就 掏出 五六千元
+7,null,null,给 她 买 回 了 一个 疗程 的 药
+26 7
+(3, 1), (3, 2)
+1,null,null,广坪 镇 金山寺 村 党支部 书记 王显勤 眼睁睁 看着 自己 家花 了 十几万元 修建 的 楼房 才 住 了 34 天 就 轰然 倒下
+2,null,null,血汗 毁 于 顷刻
+3,sadness,悲痛,他 强忍 悲痛
+4,null,null,顾不上 照顾 自己 的 母亲 和 女儿
+5,null,null,穿着 地震 跑 出时 的 一双 拖鞋 就 驻守 在 村上 受灾 最 严重 的 5 组 许家 沟
+6,null,null,抢救 转移 重伤员
+7,null,null,组织 群众 料理 地震 遇难者 后事
+27 7
+(2, 2)
+1,null,null,获悉 阿巴 多 逝世 的 消息 后
+2,sadness,悲痛,意大利 总统 纳 波利 塔诺 表示 克劳迪 奥 · 阿巴 多 的 离世 使 我 个人 深感 悲痛
+3,null,null,同时 也 是 整个 意大利 和 世界 文化界 的 一大 损失
+4,null,null,最 近几个月 里
+5,null,null,纠缠 阿巴 多 多年 的 病魔 变得 日益 强大 和 致命
+6,null,null,但 他 直至 生命 的 最后 一刻
+7,null,null,仍旧 凭借着 常人 难以想象 的 意志力 与 病魔 进行 着 顽强 抗争
+28 3
+(2, 3)
+1,null,null,和 艰苦 的 救援 工作 相比
+2,sadness,痛心,更 让 施救 人员 感到痛心 的 是
+3,null,null,那些 被 泥石流 掩埋 的 采石场 工人 的 生还 希望 已近 渺茫
+29 6
+(6, 5)
+1,null,null,因为 母猪 下 崽 大多 在 半夜
+2,null,null,怕 猪崽 被 母猪 压死 了
+3,null,null,老王 睡得 更 晚
+4,null,null,那 可 都 是 钱 哪
+5,null,null,去年 压死 了 3 只 猪崽
+6,sadness,伤心,王五军 伤心 了 好 一阵子
+30 3
+(3, 2)
+1,null,null,短短 4 天 时间 里
+2,null,null,中小学校 园内 就 发生 了 两起 教学设备 致 学生 死亡 的 不幸 事件
+3,sadness,痛心,实在 令人 深感 意外 和 痛心
+31 7
+(4, 3)
+1,null,null,劳伦斯 和 他 的 6 个 孩子 生活 在 犹他州
+2,null,null,2 年前
+3,null,null,小 威尔 出生 后 就 被诊断 患有 唐氏 综合症
+4,sadness,伤心,这 让 劳伦斯 非常 伤心
+5,null,null,在 威尔 还是 婴儿 的 时候
+6,null,null,艾伦 有 一次 看到 威尔 模仿 飞行 的 动作 后 受到 启发
+7,null,null,拍摄 和 制作 了 一组 威尔 飞翔 的 照片
+32 7
+(2, 2)
+1,null,null,为了 给 灾民 的 顺利 返乡 妥善安置 打 好 基础
+2,sadness,悲伤,桂溪乡 党委书记 廖凯 忍 着 痛失 两位 亲人 的 悲伤
+3,null,null,先后 5 次 带领 乡 村干部 到 安置 点
+4,null,null,召开 党员干部 座谈会 和 灾民 会
+5,null,null,动员 鼓励 他们 擦干 眼泪
+6,null,null,振作精神
+7,null,null,返家 重建
+33 7
+(3, 4), (3, 2)
+1,null,null,巴蒂尔 姚明 前 队友 姚明 是 你 能 想象 到 的 最好 的 队友
+2,null,null,他 的 篮球 天赋 并 没有 得到 完全 的 展现
+3,sadness,难过,我 非常 难过
+4,null,null,因为 这个 世界 并 不 了解 姚明 到底 有 多么 出色
+5,null,null,祝你好运
+6,null,null,姚明
+7,null,null,你 永远都是 男子汉
+34 17
+(6, 5)
+1,null,null,祖父 祖母 的 感情 非常 深厚
+2,null,null,我们 做 小辈 的 常 被 教育
+3,null,null,应该 向 他们 学习
+4,null,null,要 以 他们 为 榜样
+5,null,null,祖母 过世
+6,sadness,悲伤,祖父 的 悲伤 难以 用 笔墨 形容
+7,null,null,只 说 书写 卧碑 这件 小事
+8,null,null,祖父 按 石头 大小 拼 了 纸张
+9,null,null,写 了 我 妻 胡墨林 墓 六个 大 篆字
+10,null,null,每行 两字
+11,null,null,分 三行
+12,null,null,然后 写 了 一首五 绝
+13,null,null,是 用 我 祖母 的 口吻
+14,null,null,人缘 实太好
+15,null,null,与 我 大 有缘
+16,null,null,一切 皆 可舍
+17,null,null,人情 实难 捐
+35 6
+(5, 2), (5, 3), (5, 6)
+1,null,null,尽管 疏散 及时
+2,null,null,坍塌 事件 依旧 导致 至少 1 人 受伤
+3,null,null,另 有 多 人 被埋
+4,null,null,生死 不明
+5,sadness,痛心,同时 令 科隆 人 痛心 的 是
+6,null,null,大批 珍贵 历史文献 影像 资料 也 葬身 废墟
+36 7
+(3, 2)
+1,null,null,2008 年 3 月 25 日
+2,null,null,得知 方永刚 病逝 的 消息 后
+3,sadness,伤心,女兵 们 伤心地 落泪 了
+4,null,null,她们 含着泪 水
+5,null,null,联名 给 方永刚 的 妻子 回天 燕 写信
+6,null,null,并 随信 寄 去 3650 颗 幸运星
+7,null,null,表达 驻港 官兵 对方 永刚 的 缅怀 之情
+37 6
+(5, 2), (5, 3)
+1,null,null,1992 年冬
+2,null,null,丈夫 王 景山 因 劳累过度 昏倒 在 办案 现场
+3,null,null,不幸 成 了 植物 人
+4,null,null,面对 从天而降 的 灾难
+5,sadness,悲痛,王利勤 强忍 悲痛
+6,null,null,毅然 承担 起 照料 丈夫 赡养 老人 抚养 孩子 的 重任
+38 4
+(1, 1)
+1,sadness,伤心,正当 迈阿密 全城 为 热浪 总决赛 落败 而 伤心 时
+2,null,null,< 迈阿密 论坛报 > 昨天 自 摆乌龙
+3,null,null,刊登 了 一则 祝贺 热浪 夺取 总冠军 的 广告
+4,null,null,贻笑大方
+39 10
+(6, 5)
+1,null,null,由于 路不熟
+2,null,null,临近 万阜 的 道路 又 不畅
+3,null,null,他 走 了 将近 一天
+4,null,null,途中
+5,null,null,老家 来 电话 说 舅舅 去世 了
+6,sadness,难过,他 很 难过
+7,null,null,如果 掉头 赶回 广丰
+8,null,null,不过 三四个 小时 的 车程
+9,null,null,但 他 想到 既然 已经 说好 了 要 去 报到
+10,null,null,哪能 半途 变卦
+40 8
+(4, 1), (4, 2), (4, 3)
+1,null,null,范宣 因为 误伤 手指
+2,null,null,觉得 自己 没有 很 好 地践 履 < 孝经 > 的 教导
+3,null,null,有违 孝道
+4,sadness,伤心,所以 伤心地 啼哭
+5,null,null,他 年纪 如此 幼小
+6,null,null,就 把 孝 看 得 那么 重
+7,null,null,这 是 他 的 了不起 的 德
+8,null,null,所以 被 载入 < 世说新语 > 的 德行 门
+41 6
+(4, 3), (4, 4)
+1,null,null,生哥 离开 后
+2,null,null,再也 没有 回来 过
+3,null,null,我 想到 杀 了 两个 人
+4,fear,害怕,心里 特别 害怕 被抓
+5,null,null,赶紧 去 了 上海 长途汽车站 买票 回到 了 老家 宁德
+6,null,null,沈虎生 说
+42 8
+(2, 1)
+1,null,null,失去 唯一 的 孩子
+2,sadness,伤心,熊顿 的 父母 伤心欲绝
+3,null,null,望 着 她 满头 灰发 的 妈妈 和 直不起 腰 的 爸爸
+4,null,null,记者 实在 不忍 上前 打扰
+5,null,null,熊顿 的 律师 王韵 告诉 记者
+6,null,null,熊顿 的 父母 最 不 愿意 麻烦 别人
+7,null,null,他们 会 遵照 女儿 的 意愿
+8,null,null,把 她 在 生病 期间 接受 的 公益 捐助 资金 剩余 部分 再 捐给 别人
+43 7
+(4, 4)
+1,null,null,有 的 伤友 整年 不 出 家门
+2,null,null,偶尔 出来
+3,null,null,还要 年老 的 父母 推 着
+4,sadness,痛心,更让人 痛心 的 是 他们 的 精神状态 完全 被击垮 了
+5,null,null,有 的 人 自杀 了
+6,null,null,有 的 人 得 了 抑郁症
+7,null,null,有 的 人 则 把 自己 变成 了 浑身 是 刺 的 刺猬
+44 4
+(4, 1)
+1,null,null,查韦斯 于 5 日 下午 因 病 逝世
+2,null,null,享年 58 岁
+3,null,null,委内瑞拉政府 随后 宣布 自 查韦斯 逝世 当日 起 连续 7 天为 全国 哀悼日
+4,sadness,悲伤,委内瑞拉 全国 沉浸 在 悲伤 的 气氛 中
+45 5
+(4, 1), (4, 2)
+1,null,null,兰州 一位 女 大学生 靠 多次 卖血 交学费
+2,null,null,最后 竟 晕倒 在 课堂 上林光 如 委员 说 到 这里
+3,null,null,再也不能 继续 自己 的 发言
+4,sadness,难过,会场 一片 界 的 委员 们 难过 得 低下 了 头
+5,null,null,之后 又 默默地 注视 着 林光 如 委员
+46 9
+(5, 4)
+1,null,null,汪丽 的 父亲 系 一位 乡村 教师
+2,null,null,听到 女儿 被打 的 消息
+3,null,null,他 立即 赶到 医院
+4,null,null,女儿 被 打成 这样
+5,sadness,伤心,我 好 伤心
+6,null,null,汪父 说
+7,null,null,我们 都 是 做 父母 的
+8,null,null,假如 她 冯某 的 女儿 这个 样子 了
+9,null,null,她 会 咋 想 呢
+47 2
+(2, 2)
+1,null,null,5 月 29 日
+2,sadness,痛心,白青 乡玉堂 村 养殖户 游昌雄 看着 死亡 的 鲍鱼 感到 十分 痛心
+48 5
+(5, 5)
+1,null,null,因为 他 这 才 知道 侯叔 的 全 名叫 侯开盛
+2,null,null,1990 年 搬 了 家
+3,null,null,后来 又 搬 过 几次
+4,null,null,所以 找 不到
+5,sadness,难过,最 让 他 难过 的 是 侯叔 1995 年 已经 去世
+49 3
+(3, 2)
+1,null,null,我 小时候 打 比赛
+2,null,null,只要 一 输球
+3,sadness,难过,我 就 会 很 难过
+50 7
+(4, 4)
+1,null,null,她 说 自己 很 喜欢 这份 工作
+2,null,null,和 同事 相处 融洽
+3,null,null,和 失去 工作 相比
+4,sadness,伤心,她 更 伤心 的 是 失去 朋友
+5,null,null,梅丽莎 迅速 利用 互联网 展开 新 的 求职
+6,null,null,她 在 网上 寻找 朋友
+7,null,null,开设 博客 评论 业界 事务
+51 8
+(4, 2), (4, 4)
+1,null,null,在 参加 专案组 工作 的 前 半个 月
+2,null,null,张鹏 的 母亲 刚 因病 去世
+3,null,null,专案组 成立 后
+4,sadness,悲痛,他 带 着 失去 母亲 的 悲痛
+5,null,null,投入 到 紧张 的 工作 中
+6,null,null,由于 工作 压力 大
+7,null,null,张鹏 一度 血压 异常
+8,null,null,但 他 没有 休息 一天
+52 4
+(4, 4)
+1,null,null,他 说
+2,null,null,为了 实现 这个 目标
+3,null,null,他 回到 日本 之后 就 一直 致力于 日中 友好 事业
+4,sadness,痛心,对 近年来 日本 部分 右翼 势力 极力 破坏 日中 友好 的 大局 感到 十分 痛心
+53 7
+(4, 3)
+1,null,null,正当 全国 人民 为 实现 跨世纪 的 目标 而 奋力 前进 的 时候
+2,null,null,1997 年 2 月 19 日
+3,null,null,中国 改革开放 的 总 设计师 邓小平 永远 地 离开 了 我们
+4,sadness,悲痛,全国 各族人民 十分 悲痛
+5,null,null,联合国 为 这位 老人 降半旗 致哀
+6,null,null,百姓 们 自发 前来 送行
+7,null,null,感谢 他 为 国家 和 人民 做出 的 卓越贡献
+54 7
+(4, 2), (4, 3)
+1,null,null,1 月 4 日
+2,null,null,河南 兰考县 的 一场 火灾
+3,null,null,夺走 了 民办 收养 所内 7 个 孩子 的 生命
+4,sadness,痛心,这场 令人 痛心 的 悲剧 让 一个 群体 弃婴 和 孤儿
+5,null,null,以刺 目的 方式 进入 公众 视野
+6,null,null,北京师范大学 公益 研究院 院长 原 民政部 社会福利 和 慈善事业 促进 司 司长 王振耀 直言 不仅 是 在 一些 中小城市 和 乡村
+7,null,null,部分 大城市 的 儿童 福利事业 也 一样 面临 三缺 现象 缺 立法 缺 资金 缺 执行
+55 8
+(4, 3)
+1,null,null,但 不幸 的 是
+2,null,null,1904 年 宫殿 刚建好 还 在 装修 中
+3,null,null,爱妻 便 病逝
+4,sadness,悲痛,博 尔特 悲痛 不已
+5,null,null,遂 令 停工
+6,null,null,并 决定 从此 不再 续建
+7,null,null,也 不再 踏足 此岛
+8,null,null,以 1 美元 的 价格 卖 给 了 美国政府
+56 12
+(5, 3), (5, 4)
+1,null,null,然而
+2,null,null,生活 上 的 压力 和 创作 上 的 过度 投入
+3,null,null,终使 一代 音乐 天才 舒曼 仅仅 四十多岁 就 疾病 染身
+4,null,null,英年早逝 了
+5,sadness,悲伤,克拉拉 在 很 长时间 内 都 没有 走出 悲伤 的 阴影
+6,null,null,她 几乎 把 自己 完全 封闭 了 起来
+7,null,null,不 与 外人 接触
+8,null,null,最后
+9,null,null,是 舒曼 的 学生 勃拉姆斯 提醒 她 说 如果 您 真的 爱 老师
+10,null,null,就 该 振作起来
+11,null,null,好好 生活
+12,null,null,而 不是 和 他 一起 埋葬
+57 4
+(1, 2), (1, 3)
+1,sadness,难过,哈曼 今晨 在 一份 声明 中说 我 非常 难过
+2,null,null,因为 我 参与 竞选 使 整个 足坛 付出 了 沉重 代价
+3,null,null,国际足联 声誉 因此 受损
+4,null,null,这是 不能 让 人 接受 的
+58 7
+(1, 1)
+1,sadness,伤心,孙仲旭 的 早逝 特别 让 一些 青年 作家 感到 伤心
+2,null,null,作家 阿乙说
+3,null,null,读过 孙先生 五六本 译作
+4,null,null,受益 很多
+5,null,null,广州 见过 一次
+6,null,null,谦卑 之 人
+7,null,null,就活 在 书本上 吧
+59 8
+(4, 2), (4, 3)
+1,null,null,2006 年 1 月
+2,null,null,四川省 体育局 收购 四川 冠城队 失败
+3,null,null,川足 随即 宣布 解散
+4,sadness,痛心,令 万千 球迷 痛心疾首
+5,null,null,不过
+6,null,null,没有 川军 的 中超 还要 继续
+7,null,null,作为 四川 球迷
+8,null,null,今年 的 中超联赛 您 看 什么
+60 6
+(4, 3)
+1,null,null,之后
+2,null,null,想不通 的 徐勇 就 走上 了 绝路
+3,null,null,徐勇 去世 不足 两月
+4,sadness,伤心,他 的 岳母 也 因 伤心 过度
+5,null,null,一病不起
+6,null,null,很快 撒手人寰
+61 6
+(5, 3), (5, 6)
+1,null,null,2009 年 12 月
+2,null,null,河北省 遵化市 的 一位 女网友 在 网上 发帖 求助
+3,null,null,她 本人 不仅 患有 严重 的 软骨病
+4,null,null,需要 坐轮椅
+5,sadness,难过,更令 她 难过 的 是
+6,null,null,她 的 孩子 也 患有 这种 疾病
+62 6
+(4, 3)
+1,null,null,她 对 我 说 她 的 孩子 叫 文轩
+2,null,null,是 初三 5 班 的
+3,null,null,文轩 的 父亲 前天 去世 了
+4,sadness,悲痛,文轩 很 悲痛
+5,null,null,亲人 都 希望 他 坚强 起来
+6,null,null,努力完成 中考
+63 5
+(5, 4)
+1,null,null,法国 总统 奥 朗德 则 称
+2,null,null,魏茨泽克 因 他 的 个人 历史 政治 活动 和 面对 自己 国家 历史 的 立场
+3,null,null,而 拥有 了 个性
+4,null,null,这位 首个 反思 二战 的 德国 总统 的 离世
+5,sadness,悲痛,令 他 和 德国 人民 一样 悲痛
+64 4
+(1, 4)
+1,sadness,悲伤,国际 冰球 联合会 主席 法 塞尔 这是 冰球 运动 最 悲伤 的 一天
+2,null,null,这 不仅 是 俄罗斯 冰球界 的 悲剧
+3,null,null,也 是 国际 冰球 大家庭 的 悲剧
+4,null,null,这么 多 国家 的 冰球 运动员 不幸遇难
+65 2
+(1, 1)
+1,sadness,悲痛,法国 前 总统 希拉克 在 获悉 布列 松 逝世 的 消息 后 悲痛 地说 法国 失去 了 一位 天才 真正 的 大师
+2,null,null,他 是 20 世纪 最具 天赋 并 深受 世人 尊敬 的 艺术家 之一
+66 7
+(4, 3)
+1,null,null,临时 党支部 振臂一呼
+2,null,null,让 群众 看到 了 希望
+3,null,null,村支部 副 书记 何清宝 的 5 位 亲人 不幸遇难
+4,sadness,悲痛,但 他 强忍 悲痛
+5,null,null,忍着 头部 腰部 脊椎 多处 受伤 的 钻心 疼痛
+6,null,null,冒 着 余震
+7,null,null,想方设法 成功 救出 200 余名 被困 的 村民 和 学生
+67 3
+(3, 1)
+1,null,null,深切 缅怀 妇女儿童 工作 的 光辉 典范 陈慕华 大姐 敬爱 的 陈慕华 大姐 溘然长逝
+2,null,null,噩耗传来
+3,sadness,悲痛,我们 沉浸 在 无限 悲痛 之中
+68 7
+(6, 5), (6, 3)
+1,null,null,一年 后
+2,null,null,阿水 回到 土楼
+3,null,null,带回 了 阿山 和 师傅 遇难 他 乡 的 消息
+4,null,null,而且 要 带走 石头
+5,null,null,失去 丈夫 和 儿子 的 云花
+6,sadness,悲伤,忍住 悲伤
+7,null,null,决定 成全 这 对 父子 的 团聚
+69 6
+(3, 3)
+1,null,null,宇宙 浩瀚
+2,null,null,生命 短暂
+3,sadness,悲伤,失去 外婆 的 悲伤 在 渐渐 淡去
+4,null,null,但 外婆 的 目光
+5,null,null,一如 那 精彩 无比 的 贝壳
+6,null,null,将 被 我 永远 珍藏
+70 5
+(2, 1)
+1,null,null,阳宗海 被 化工企业 污染 了
+2,sadness,痛心,大家 感到 非常 痛心
+3,null,null,那么 长江 黄河 沿岸
+4,null,null,还有 几个 大型 湖泊 周边 那些 相当 数量 的 化工 及 冶炼 企业
+5,null,null,就 更 叫 人 担心 了
+71 4
+(4, 4)
+1,null,null,但是
+2,null,null,一 提起 文书 王坤鸣
+3,null,null,安徽 庐江县 泥河镇 沙溪村 的 群众 又 仿佛 回到 了 冰天雪地 中
+4,sadness,悲痛,为 自己 身边 失去 一个 好 后生 而 悲痛
+72 10
+(5, 2), (5, 4)
+1,null,null,1978 年 3 月 29 日
+2,null,null,孙荃 患 心力衰竭 去世
+3,null,null,待郁 黎民 匆匆 赶回 浙江 老家
+4,null,null,母亲 已先 一日 下葬
+5,sadness,悲痛,悲痛 中
+6,null,null,郁 黎民 拟就 一幅 挽联
+7,null,null,表达 了 自己 无尽 的 哀思 一生 茹苦忆 慈亲
+8,null,null,最 难忘 国难 家仇
+9,null,null,长夜漫漫
+10,null,null,心伤 杜宇
+73 5
+(1, 1)
+1,sadness,悲痛,母亲 的 去世 让 高 女士 悲痛 万分
+2,null,null,母亲 年事已高
+3,null,null,护理人员 在 喂食 馄饨 时
+4,null,null,应当 吃掉 一个 后 再 喂食 第二个
+5,null,null,而且 应当 缓慢 细致
+74 4
+(4, 1), (4, 3)
+1,null,null,父母 因 感染 艾滋病 先后 去世 后
+2,null,null,12 岁 的 景颇族 男孩 供胖 成为 孤儿
+3,null,null,说起 家里 的 事情
+4,sadness,难过,供胖 有些 难过
+75 6
+(5, 5)
+1,null,null,爱普莉 的 自残 导致 大出血
+2,null,null,被 送 进 医院 的 爱 普莉 再也 没有 回家 来
+3,null,null,这是 为什么
+4,null,null,为什么
+5,sadness,悲痛,失去 了 爱 普莉 的 弗兰克 无比 悲痛
+6,null,null,在 革命 之 路上 狂奔
+76 8
+(5, 4)
+1,null,null,晚年 的 撒切尔 夫人 着 有 回忆录 < 唐宁街 岁月 >
+2,null,null,记录 了 她 担任 英国首相 11 年 的 辉煌 生涯
+3,null,null,2003 年
+4,null,null,陪伴 她 51 年 的 丈夫 丹尼斯 · 撒切尔 去世
+5,sadness,悲痛,令 撒切尔 夫人 十分 悲痛
+6,null,null,此后 十年间 她 的 健康 每况愈下
+7,null,null,先后 几次 轻微 中风
+8,null,null,遵 医嘱 逐渐 淡出 公众 视野 安度晚年
+77 7
+(2, 3), (2, 4), (2, 5)
+1,null,null,周莫北 朋友 最近 失恋
+2,sadness,难过,她 难过 的 不是 失去 了 一个 男友
+3,null,null,而是 在 失恋 的 同时
+4,null,null,也 失去 了 她 唯一 信任 的 好友
+5,null,null,最好 的 朋友 跟着 自己 的 男友 在 她 眼前 一并 消失 了
+6,null,null,这种 打击
+7,null,null,让 她 几近 崩溃
+78 3
+(2, 2)
+1,null,null,被誉为 最 坚强 的 女警 花 的 蒋敏 挺住 了
+2,sadness,悲痛,她 把 痛失 亲人 的 悲痛
+3,null,null,化为 至今 战斗 在 工作岗位 上 的 力量
+79 7
+(2, 1)
+1,null,null,因为 葬礼
+2,sadness,悲伤,这个 家庭 肯定 陷入 了 悲伤
+3,null,null,< 花园里 的 萤火虫 > 的 编剧 这样 说 决定性 事件 就是 母亲 的 死
+4,null,null,对于 大多数 家庭 来说
+5,null,null,就 像 一个 装着 所有 照片 的 镜框
+6,null,null,镜框 不 在 了
+7,null,null,大家 都 分开 了
+80 8
+(5, 6), (5, 7), (5, 8)
+1,null,null,业委会 成立
+2,null,null,还 只是 实现 自治 的 第一步
+3,null,null,让 它 正常 运转 并 发挥作用
+4,null,null,才 是 更 长远 的 考验
+5,sadness,难过,让 人 难过 的 是
+6,null,null,各 小区 总有 一些 乐于 拖后腿 者
+7,null,null,不断 用 无理 的 语言 消极 的 行动
+8,null,null,挫伤 业委会 和 关心 公共事务 者 的 热情
+81 3
+(3, 2)
+1,null,null,就 在 几天 前
+2,null,null,河北 安新 的 一个 13 岁 的 女孩儿 在 早晨 上学 的 路上 被 犯罪 嫌疑人 奸杀
+3,sadness,痛心,闻 之 让 人 痛心
+82 9
+(6, 5)
+1,null,null,又 隔 了 很多年
+2,null,null,我 从 法国 回来 后
+3,null,null,想 去 看看 他
+4,null,null,朋友 告诉 我
+5,null,null,古元 已 在 不久前 离世 了
+6,sadness,悲痛,我 很 悲痛
+7,null,null,想不到 楼梯 上 的 一面
+8,null,null,竟是 永别
+9,null,null,2
+83 6
+(4, 3)
+1,null,null,随后
+2,null,null,公猴 阿丹 力挫群雄 继承 王位 成 了 新 的 掌门人
+3,null,null,大雅 的 去世
+4,sadness,伤心,使 身怀六甲 的 玫美 伤心 不已
+5,null,null,为了 腹中 的 胎儿
+6,null,null,玫美带 着 大雅 的 遗腹子 改嫁 给 了 阿丹
+84 11
+(4, 3), (4, 4)
+1,null,null,我 是 农民 的 儿子
+2,null,null,最 知道 农民 的 辛苦
+3,null,null,看到 他们 遇到困难 受到 冤屈
+4,sadness,难过,那么 无助 和 无奈 我 就 难过
+5,null,null,就 不由 地想 为 他们 做些 什么
+6,null,null,再苦 再 累 也 觉得 值
+7,null,null,这些 年
+8,null,null,我 始终 坚持 把 群众 的 事 当作 自己 的 事
+9,null,null,许多 其他 部门 办理 过 但 没有 办理 好 的 案子
+10,null,null,交给 我办
+11,null,null,我 就 能 处理 好
+85 2
+(2, 2)
+1,null,null,尽管 所有 的 亲朋好友 和 喜爱 她 的 观众 都 无法 接受 这一 事实
+2,sadness,痛心,但 林妹妹 陈晓旭 病逝 的 残酷 现实 还是 不得不 让 人们 痛心
+86 3
+(3, 1)
+1,null,null,文学 巨匠 巴金 在 上海 去世 的 消息 在 文学界 很快 传开
+2,null,null,许多 作家 闻听 这一 噩耗 后
+3,sadness,悲痛,悲痛 万分
