@@ -60,7 +60,7 @@ This study uses the following models for different purposes.
 
 ### Filter
 
-- **RoBERTa-Large ** 
+RoBERTa-Large  
 
 ### Sentence encoding
 
