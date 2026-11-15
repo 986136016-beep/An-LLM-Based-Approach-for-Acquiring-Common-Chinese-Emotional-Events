@@ -21,7 +21,7 @@ tf.app.flags.DEFINE_integer('embedding_dim_pos', 50,
 tf.app.flags.DEFINE_string('pos_trainable', '',
                            'whether position embedding is trainable')
 ## input struct ##
-tf.app.flags.DEFINE_integer('max_sen_len', 45,
+tf.app.flags.DEFINE_integer('max_sen_len', 30,
                             'max number of tokens per sentence')
 tf.app.flags.DEFINE_integer('max_doc_len', 25,
                             'max number of sentences per documents')
@@ -40,10 +40,10 @@ tf.app.flags.DEFINE_integer('training_iter', 10, 'number of train iter')
 tf.app.flags.DEFINE_string('scope', 'RNN', 'RNN scope')
 # not easy to tune
 tf.app.flags.DEFINE_integer('batch_size', 32, 'number of samples per batch')
-tf.app.flags.DEFINE_float('learning_rate', 0.0055, 'learning rate')
+tf.app.flags.DEFINE_float('learning_rate', 0.005, 'learning rate')
 tf.app.flags.DEFINE_float('keep_prob1', 0.5, 'word embedding dropout keep prob')
 tf.app.flags.DEFINE_float('keep_prob2', 1.0, 'softmax layer dropout keep prob')
-tf.app.flags.DEFINE_float('l2_reg', 0.000015, 'l2 regularization rate')
+tf.app.flags.DEFINE_float('l2_reg', 0.00001, 'l2 regularization rate')
 tf.app.flags.DEFINE_float('lambda1', 0.1, 'rate for position prediction loss')
 
 def build_model(word_embedding, pos_embedding, x, word_dis, DGL, sen_len,
@@ -78,7 +78,9 @@ def build_model(word_embedding, pos_embedding, x, word_dis, DGL, sen_len,
     special_feature = tf.cast(tf.reshape(special_feature,
                                          [-1, FLAGS.max_doc_len, 1]),
                               tf.float32)
+
     s = tf.concat([s, special_feature], axis=2)
+
     n_feature += 1  # 更新特征维度
     if FLAGS.hierachy:
         print('use hierachy')
@@ -86,9 +88,12 @@ def build_model(word_embedding, pos_embedding, x, word_dis, DGL, sen_len,
                 scope=FLAGS.scope + 'sentence_layer')
         n_feature = 2 * FLAGS.n_hidden
 
+
+
     with tf.name_scope('softmax'):
         s = tf.reshape(s, [-1, n_feature])
         s = tf.nn.dropout(s, keep_prob=keep_prob2)
+        print("sa",s.shape)
         # 位置预测
         w_p = get_weight_varible('position_w', [n_feature, 102])
         b_p = get_weight_varible('position_b', [102])
@@ -100,6 +105,7 @@ def build_model(word_embedding, pos_embedding, x, word_dis, DGL, sen_len,
             print('using DGL feature!')
             DGL = tf.reshape(DGL, [-1, FLAGS.max_doc_len])
             s_tr = tf.concat([s, DGL], axis=1)
+            print ("ster",s_tr.shape)
             w = get_weight_varible('cause_w', [n_feature + FLAGS.max_doc_len,
                                                FLAGS.n_class])
             b = get_weight_varible('cause_b', [FLAGS.n_class])
@@ -202,6 +208,7 @@ def run():
     y_p_data, y_data, x_data, sen_len_data, doc_len_data, word_distance, DGL_data, special_feature_data = load_data(
         FLAGS.train_file_path, word_id_mapping, FLAGS.max_doc_len,
         FLAGS.max_sen_len)
+
     # Training Code Block
     print_training_info()
     tf_config = tf.ConfigProto()
@@ -267,11 +274,11 @@ def run():
             np.array(f1_list).reshape(-1, 1), p, r, f1))
 
 def main(_):
-    FLAGS.use_DGL = ''
-    FLAGS.train_file_path = 'data/clause_keywords.csv'
-    FLAGS.log_file_name = 'PAE.log'
-    FLAGS.scope = 'PAE'
-    run()
+    # FLAGS.use_DGL = 'use'
+    # FLAGS.train_file_path = 'data/clause_keywords.csv'
+    # FLAGS.log_file_name = 'PAE.log'
+    # FLAGS.scope = 'PAE'
+    # run()
 
     FLAGS.use_DGL = 'use'
     FLAGS.train_file_path = 'data/reordered_clause_keywords.csv'
@@ -281,7 +288,6 @@ def main(_):
 
 if __name__ == '__main__':
     tf.app.run()
-
 
 # #作者
 
