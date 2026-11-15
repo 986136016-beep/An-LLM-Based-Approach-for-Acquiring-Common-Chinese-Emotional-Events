@@ -45,7 +45,6 @@ The LLM prompt templates are provided in `data/prompt_templates.txt`. The core t
 >
 > Please continue generating emotional events starting with "[indicator]", one event per line, without numbering.
 
-The full templates (including the bei-event and ablation variants) are documented in `data/prompt_templates.txt`.
 
 ---
 
@@ -55,7 +54,7 @@ The full templates (including the bei-event and ablation variants) are documente
 |---|---|
 | Generation LLM | SparkDesk (spark-x2.6) |
 | Compared LLMs | DeepSeek-V3 Flash, SparkDesk spark-x2.6, ERNIE Bot ernie-3.5, ChatGLM 4.7-Flash, Kimi k2.7, GPT-3.5-turbo, GPT-4o |
-| Filter | RoBERTa-Large (hfl/chinese-roberta-wwm-ext-large) |
+| Filter | RoBERTa-Large |
 | temperature | 0.7 |
 | top-p | 0.9 |
 | max_tokens | 2048 |
