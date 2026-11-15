@@ -1,0 +1,205 @@
+# Common Chinese Emotional Events: Code and Data
+
+This repository accompanies the paper **"An LLM-Based Approach for Acquiring Common Chinese Emotional Events"** (TALLIP). It provides the code, data, prompts, and documentation needed to reproduce the resource construction pipeline and the experiments reported in the paper.
+
+---
+
+## Overview
+
+The paper constructs a large-scale resource of common Chinese emotional events through the pipeline:
+
+```
+emotional event indicator → LLM generation → filtering → classification
+```
+
+The final resource contains **102,218 common Chinese emotional events** with sentiment polarity labels, comprising:
+
+- **44,282** events with non-neutral indicators
+- **57,754** bei ("被") events
+- **182** implicit emotional events
+
+---
+
+## Repository Structure
+
+```
+.
+├── data/                      # Resource data, prompts, and documentation
+│   ├── nonneutral_indicators.xlsx   # 726 non-neutral emotional event indicators
+│   ├── bei_indicators.xlsx          # 918 compositional bei event indicators
+│   ├── nonneutral_events.xlsx       # 44,282 events with non-neutral indicators
+│   ├── bei_events.xlsx              # 57,754 bei events
+│   ├── implicit_events.xlsx         # 182 implicit emotional events
+│   ├── emotion_lexicon.xlsx         # positive/negative emotion word list
+│   ├── probe_set.txt                # 3,097-item coverage evaluation probe set
+│   ├── prompt_templates.txt         # LLM prompt templates
+│   └── README_reproducibility.md    # full reproducibility documentation
+│
+├── generation/                # LLM generation and ablation
+│   ├── generate.py            # event generation
+│   ├── generate_formal.py     # formal multi-LLM generation script
+│   ├── ablation.py            # clean ablation experiments
+│   ├── config.py              # model names and decoding configuration (API key placeholder)
+│   ├── auto_judge.py          # heuristic validity check
+│   ├── make_annotation.py     # build annotation sheets
+│   └── stats.py               # annotation statistics
+│
+├── filtering/                 # RoBERTa-based validity filter
+│   ├── step2_split.py         # indicator-disjoint train/val/test split
+│   ├── step3_train.py         # filter training and evaluation
+│   ├── threshold_selection.py # threshold selection (maximize F1)
+│   ├── confidence_interval.py # bootstrap 95% confidence intervals
+│   ├── step4_plot_pr.py       # precision-recall curve plotting
+│   └── sample.py              # filter training-data sampling
+│
+├── quality_evaluation/        # Intrinsic event quality evaluation (D1)
+│   └── sampling.py            # five-dimension quality evaluation sampling
+│
+├── polarity_audit/            # Polarity annotation audit (D2)
+│   ├── indicator_sampling.py  # indicator-level polarity audit sampling
+│   ├── indicator_stats.py     # indicator-level audit statistics
+│   ├── event_sampling.py      # event-level polarity audit sampling
+│   └── event_stats.py         # event-level audit statistics
+│
+└── coverage_evaluation/       # Coverage evaluation (D5)
+    ├── step1_extract_probe.py     # extract probe set from ECE corpus
+    ├── step2_filter_conceptnet.py # filter ConceptNet Chinese nodes
+    ├── step3_probe_own_dataset.py # probe the acquired resource
+    ├── ...                         # remaining probe-construction and similarity scripts
+    ├── similarity.py               # unified coverage computation (BERT cosine similarity)
+    ├── atomic_similarity.py        # ATOMIC coverage computation
+    └── conceptnet_coverage.py      # ConceptNet coverage computation
+```
+
+---
+
+## Requirements
+
+- Python 3.7+
+- PyTorch
+- Transformers (Hugging Face)
+- scikit-learn
+- openpyxl
+- numpy, pandas, scipy
+- requests (for LLM API calls)
+
+Install the dependencies with:
+
+```bash
+pip install torch transformers scikit-learn openpyxl numpy pandas scipy requests
+```
+
+---
+
+## Data Description
+
+### Indicators
+
+- **`nonneutral_indicators.xlsx`**: 726 non-neutral emotional event indicators (positive and negative), each with a polarity label.
+- **`bei_indicators.xlsx`**: 918 compositional bei event indicators of the form "被+verb".
+
+### Events
+
+- **`nonneutral_events.xlsx`**: 44,282 events with non-neutral indicators, each with its emotion result.
+- **`bei_events.xlsx`**: 57,754 bei events.
+- **`implicit_events.xlsx`**: 182 implicit emotional events (events without indicators).
+
+### Probe Set
+
+- **`probe_set.txt`**: 3,097 emotion-cause clauses extracted from a Chinese emotion cause corpus [1], used for the coverage evaluation in Section 5.3.
+
+### Emotion Lexicon
+
+- **`emotion_lexicon.xlsx`**: the positive/negative emotion word list used for polarity inference.
+
+---
+
+## Prompts
+
+The LLM prompt templates are provided in `data/prompt_templates.txt`. The core template is:
+
+> Please output 100 different emotional events that can evoke corresponding human emotions in daily life. Ensure the correctness and diversity of the generated phrases. Below are some examples:
+> 1. {example 1}
+> ...
+> 8. {example 8}
+>
+> Please continue generating emotional events starting with "[indicator]", one event per line, without numbering.
+
+The full templates (including the bei-event and ablation variants) are documented in `data/prompt_templates.txt`.
+
+---
+
+## Reproduction Steps
+
+### 1. LLM Event Generation
+
+```bash
+cd generation
+# Set your API key in config.py, then:
+python generate_formal.py
+```
+
+This generates events for six indicators across multiple LLMs. The model names, versions, and decoding settings (temperature = 0.7, top-p = 0.9, max_tokens = 2048) are in `config.py`.
+
+### 2. Filter Training and Evaluation
+
+```bash
+cd filtering
+python step2_split.py           # indicator-disjoint split (80/10/10)
+python step3_train.py --model hfl/chinese-roberta-wwm-ext-large
+python threshold_selection.py   # threshold selection
+python confidence_interval.py   # bootstrap 95% confidence intervals
+```
+
+### 3. Coverage Evaluation
+
+```bash
+cd coverage_evaluation
+python step1_extract_probe.py   # build the probe set
+python similarity.py            # compute coverage (BERT cosine similarity)
+```
+
+### 4. Polarity Audit
+
+```bash
+cd polarity_audit
+python indicator_sampling.py    # sample indicators for audit
+python indicator_stats.py       # compute audit statistics
+```
+
+---
+
+## Model Versions and Inference Configuration
+
+| Item | Value |
+|---|---|
+| Generation LLM | SparkDesk (spark-x2.6) |
+| Compared LLMs | DeepSeek-V3 Flash, SparkDesk spark-x2.6, ERNIE Bot ernie-3.5, ChatGLM 4.7-Flash, Kimi k2.7, GPT-3.5-turbo, GPT-4o |
+| Filter | RoBERTa-Large (hfl/chinese-roberta-wwm-ext-large) |
+| temperature | 0.7 |
+| top-p | 0.9 |
+| max_tokens | 2048 |
+
+---
+
+## Annotation Guidelines
+
+The annotation guidelines for the five-dimension event quality evaluation, the polarity audit, and the filter training data are documented in `data/README_reproducibility.md` (Section 4).
+
+---
+
+## License
+
+The code and the resource are released for research purposes. Please refer to the paper for the license terms of third-party datasets, lexical resources (HowNet, NTUSD, CSVOL, Tsinghua Sentiment Dictionary), pretrained models (BERT/RoBERTa), and LLM services (SparkDesk) used in this study. Materials that cannot be redistributed due to third-party licensing restrictions are accompanied by references to their original sources.
+
+---
+
+## Citation
+
+If you use this code or data, please cite the corresponding paper.
+
+---
+
+## References
+
+[1] Liu P, Du C, Zhao S, et al. Emotion Action Detection and Emotion Inference: The Task and Dataset. arXiv preprint arXiv:1903.06901, 2019.
