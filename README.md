@@ -60,8 +60,3 @@ The full templates (including the bei-event and ablation variants) are documente
 | top-p | 0.9 |
 | max_tokens | 2048 |
 
----
-
-## Annotation Guidelines
-
-The annotation guidelines for the five-dimension event quality evaluation, the polarity audit, and the filter training data are documented in `data/README_reproducibility.md` (Section 4).
